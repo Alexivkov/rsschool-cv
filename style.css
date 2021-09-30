@@ -1,0 +1,117 @@
+body {
+  margin-left: 20px;
+  margin-right: 20px; /* content is placed in a block that is horizontally centered on the page */
+  color: #44566c;
+  font-family: "Monseratt", sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+h2,
+h3 {
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #646363;
+  border-radius: 10px;
+}
+
+.header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.aside {
+  flex-basis: 100%;
+  padding: 2.5rem;
+  background-color: #f5f8f9;
+  border-radius: 30px;
+}
+
+.section {
+  padding: 0 40px;
+}
+
+.my-name {
+  font-size: 1.75rem;
+  font-weight: 800;
+}
+
+.position {
+  width: 200px;
+  padding: 5px 10px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  background-color: #e9edf0;
+  border-radius: 20px;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40%;
+}
+
+.contacts {
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.contacts-item {
+  padding: 10px 15px;
+  margin-left: -40px;
+  margin-bottom: 12px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.contacts-icon {
+  margin-right: 15px;
+}
+
+.line {
+  width: 75%;
+  height: 3px;
+  margin: 0px auto;
+  background-color: #44566c;
+}
+
+.container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.education-item-list {
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.education-item-list li {
+  margin-left: -40px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  font-size: 55px;
+}
+
+@media (max-width: 924px) {
+  .main {
+    flex-direction: column;
+  }
+  .logo {
+    padding-top: 40px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
